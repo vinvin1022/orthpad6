@@ -13,8 +13,8 @@ import {
 } from "react-native";
 import styles from "./styles";
 import { Picker } from "@react-native-picker/picker";
-import { roles } from "../../utils/index";
-import services9125 from "../../services/services9125";
+import { roles } from "~/utils/index";
+import services9125 from "~/services/services9125";
 import {
   changeServerHost,
   changevideoApi,
@@ -26,7 +26,7 @@ import {
   changeSurfaceArr,
   changelockMoveDistance,
   changellockMoveAngle,
-} from "../../services/host";
+} from "~/services/host";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Link, useRouter } from "expo-router";
 
@@ -166,12 +166,12 @@ const App: FC<TProps> = ({ navigation }) => {
     <SafeAreaView>
       
       <ImageBackground
-        source={require("../../assets/login/bg.png")}
+        source={require("~/assets/login/bg.png")}
         resizeMode="cover"
         style={styles.container}
       >
         <ImageBackground
-          source={require("../../assets/login/contentBg.png")}
+          source={require("~/assets/login/contentBg.png")}
           resizeMode="cover"
           style={styles.contentBox}
         >
@@ -181,7 +181,7 @@ const App: FC<TProps> = ({ navigation }) => {
           <View style={styles.logingContainer}>
             <View style={styles.inputContainer}>
               <Image
-                source={require("../../assets/login/authority.png")}
+                source={require("~/assets/login/authority.png")}
                 style={styles.icon}
                 resizeMode="contain"
               />
@@ -195,7 +195,7 @@ const App: FC<TProps> = ({ navigation }) => {
 
             <View style={styles.inputContainer}>
               <Image
-                source={require("../../assets/login/password.png")}
+                source={require("~/assets/login/password.png")}
                 style={styles.icon}
                 resizeMode="contain"
               />
@@ -210,7 +210,7 @@ const App: FC<TProps> = ({ navigation }) => {
 
             <View style={styles.inputContainer}>
               <Image
-                source={require("../../assets/login/permission.png")}
+                source={require("~/assets/login/permission.png")}
                 style={styles.icon}
                 resizeMode="contain"
               />

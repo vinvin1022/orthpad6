@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import type { FC } from "react";
 import { View, Text, TextInput, Modal, TouchableOpacity } from "react-native";
 import styles from "./styles";
-import { roles } from "../../../../utils/index";
+import { roles } from "~/utils/index";
 import { Picker } from "@react-native-picker/picker";
 
 type TProps = {

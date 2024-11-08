@@ -3,7 +3,7 @@ import { Text, View, TouchableOpacity, ToastAndroid } from "react-native";
 import styles from "./styles";
 import Table from "./Table";
 import AddUser from "./AddUser";
-import services9125 from "../../../services/services9125";
+import services9125 from "~/services/services9125";
 
 const App = () => {
   const [userData, setUserData] = useState([]);

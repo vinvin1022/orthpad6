@@ -12,22 +12,22 @@ const leftMenuArr = [
   {
     name: "用户设置",
     value: "user",
-    iconPath: require("../../../assets/systemScreen/user.png"),
+    iconPath: require("~/assets/systemScreen/user.png"),
   },
   {
     name: "机械臂设置",
     value: "armsetting",
-    iconPath: require("../../../assets/systemScreen/armsetting.png"),
+    iconPath: require("~/assets/systemScreen/armsetting.png"),
   },
   {
     name: "系统重置",
     value: "systemreset",
-    iconPath: require("../../../assets/systemScreen/systemreset.png"),
+    iconPath: require("~/assets/systemScreen/systemreset.png"),
   },
   {
     name: "设备管理",
     value: "devicemanage",
-    iconPath: require("../../../assets/systemScreen/devicemanage.png"),
+    iconPath: require("~/assets/systemScreen/devicemanage.png"),
   },
 ];
 

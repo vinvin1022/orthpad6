@@ -3,7 +3,7 @@ import type { FC } from "react";
 import { View, Text, TextInput } from "react-native";
 import styles from "./styles";
 import MultiSlider from "@ptomasroos/react-native-multi-slider";
-import { pxToDp } from "../../../utils";
+import { pxToDp } from "~/utils";
 
 type TProps = {};
 

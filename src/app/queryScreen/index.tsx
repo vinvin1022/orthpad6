@@ -12,7 +12,7 @@ import { Picker } from '@react-native-picker/picker';
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import Table from "./Table";
 import moment from 'moment';
-import services9125 from '../../services/services9125';
+import services9125 from '~/services/services9125';
 
 type TProps = {
 }
@@ -104,7 +104,7 @@ const App: FC<TProps> = ({ }) => {
 
     
     return (
-        <ImageBackground source={require("../../assets/bg.png")} resizeMode="cover" style={styles.container}>
+        <ImageBackground source={require("~/assets/bg.png")} resizeMode="cover" style={styles.container}>
             <View style={styles.headerItem}>
                 <View style={styles.inputContainer}>
                     <Text style={styles.inputLabel}>按用户筛选</Text>

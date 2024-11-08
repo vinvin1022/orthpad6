@@ -15,7 +15,7 @@ const App: FC<TProps> = ({}) => {
 
   return (
     <ImageBackground
-      source={require("../../assets/bg.png")}
+      source={require("~/assets/bg.png")}
       resizeMode="cover"
       style={styles.container}
     >

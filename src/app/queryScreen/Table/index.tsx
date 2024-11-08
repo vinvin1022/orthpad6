@@ -6,7 +6,7 @@ import {
     View,
 } from 'react-native';
 import styles from './styles';
-import ImageModal from "../../../components/ImageModal";
+import ImageModal from "~/components/ImageModal";
 
 
 type TProps = {

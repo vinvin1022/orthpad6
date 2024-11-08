@@ -23,7 +23,7 @@ const App: FC<TProps> = ({ navigation }) => {
 
   return (
     <ImageBackground
-      source={require("../../assets/bg.png")}
+      source={require("~/assets/bg.png")}
       resizeMode="cover"
       style={styles.container}
     >
@@ -34,7 +34,7 @@ const App: FC<TProps> = ({ navigation }) => {
             onPress={() => toOtherPage("locationFastScreen")}
           >
             <Image
-              source={require("../../assets/homeScreen/locationScreen.png")}
+              source={require("~/assets/homeScreen/locationScreen.png")}
               resizeMode="cover"
               style={styles.boxLeftImg}
             />
@@ -53,7 +53,7 @@ const App: FC<TProps> = ({ navigation }) => {
             onPress={() => toOtherPage("queryScreen")}
           >
             <Image
-              source={require("../../assets/homeScreen/queryScreen.png")}
+              source={require("~/assets/homeScreen/queryScreen.png")}
               resizeMode="cover"
               style={styles.boxRightImg}
             />
@@ -65,7 +65,7 @@ const App: FC<TProps> = ({ navigation }) => {
             onPress={() => toOtherPage("systemScreen")}
           >
             <Image
-              source={require("../../assets/homeScreen/systemScreen.png")}
+              source={require("~/assets/homeScreen/systemScreen.png")}
               resizeMode="cover"
               style={styles.boxRightImg}
             />

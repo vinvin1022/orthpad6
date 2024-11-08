@@ -11,7 +11,7 @@ import {
 import styles from "./styles";
 import { useNavigation } from "@react-navigation/native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import services9125 from "../../services/services9125";
+import services9125 from "~/services/services9125";
 import BlinkingText from "../BlinkingText";
 import { usePathname } from "expo-router";
 
@@ -179,7 +179,7 @@ const TopBars: FC<TProps> = () => {
           <View style={styles.content2}>
             <View style={{ flexDirection: "row" }}>
               <Image
-                source={require("../../assets/topBars/icon.png")}
+                source={require("~/assets/topBars/icon.png")}
                 style={styles.icon}
                 resizeMode="contain"
               />
@@ -190,7 +190,7 @@ const TopBars: FC<TProps> = () => {
                                 delayPressOut={200} // 设置延迟以允许用户同时点击两张图片
                             >
                                 <Image
-                                    source={require('../../assets/topBars/stop.png')}
+                                    source={require('~/assets/topBars/stop.png')}
                                     style={styles.icon}
                                     resizeMode="contain"
                                 />
@@ -220,7 +220,7 @@ const TopBars: FC<TProps> = () => {
                 //delayPressOut={200} // 设置延迟以允许用户同时点击两张图片
               >
                 <Image
-                  source={require("../../assets/topBars/stop.png")}
+                  source={require("~/assets/topBars/stop.png")}
                   style={styles.icon}
                   resizeMode="contain"
                 />
@@ -228,7 +228,7 @@ const TopBars: FC<TProps> = () => {
               </TouchableOpacity>
               <View style={styles.rightIcon}>
                 <Image
-                  source={require("../../assets/topBars/arm.png")}
+                  source={require("~/assets/topBars/arm.png")}
                   style={[styles.icon]}
                   resizeMode="contain"
                 />
@@ -258,7 +258,7 @@ const TopBars: FC<TProps> = () => {
               {connectStatus === 3 ? (
                 <TouchableOpacity onPress={onConnect} style={styles.rightIcon}>
                   <Image
-                    source={require("../../assets/topBars/connect.png")}
+                    source={require("~/assets/topBars/connect.png")}
                     style={styles.icon}
                     resizeMode="contain"
                   />
@@ -267,7 +267,7 @@ const TopBars: FC<TProps> = () => {
               ) : (
                 <TouchableOpacity onPress={onConnect} style={styles.rightIcon}>
                   <Image
-                    source={require("../../assets/topBars/disconnect.png")}
+                    source={require("~/assets/topBars/disconnect.png")}
                     style={styles.icon}
                     resizeMode="contain"
                   />
@@ -277,7 +277,7 @@ const TopBars: FC<TProps> = () => {
 
               <View style={styles.rightIcon}>
                 <Image
-                  source={require("../../assets/topBars/user.png")}
+                  source={require("~/assets/topBars/user.png")}
                   style={styles.icon}
                   resizeMode="contain"
                 />
@@ -290,7 +290,7 @@ const TopBars: FC<TProps> = () => {
                 style={styles.rightIcon}
               >
                 <Image
-                  source={require("../../assets/topBars/bac.png")}
+                  source={require("~/assets/topBars/bac.png")}
                   style={styles.icon}
                   resizeMode="contain"
                 />

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import type { FC } from "react";
 import { Text, View, Switch, TouchableOpacity } from "react-native";
 import styles from "./styles";
-import { changeCanMoveByLocation } from "../../../../services/host";
+import { changeCanMoveByLocation } from "~/services/host";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const tableColumns = [

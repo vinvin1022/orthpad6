@@ -19,7 +19,7 @@ import FullToast from "./FullToast";
 import StepBar from "./StepBar";
 import styles, { ballWidth, ballPadding } from "./styles";
 import { VLCPlayer } from "react-native-vlc-media-player";
-import services9125 from "../../services/services9125";
+import services9125 from "~/services/services9125";
 import {
   serverHost as host,
   videoApi,
@@ -28,9 +28,9 @@ import {
   positioningDeviation,
   canMoveByLocation,
   algorithmMode,
-} from "../../services/host";
-import { pxToDp } from "../../utils";
-import BlinkingText from "../../components/BlinkingText";
+} from "~/services/host";
+import { pxToDp } from "~/utils";
+import BlinkingText from "~/components/BlinkingText";
 
 type TProps = {};
 
@@ -687,7 +687,7 @@ const App: FC<TProps> = () => {
   return (
     <SafeAreaView>
       <ImageBackground
-        source={require("../../assets/bg.png")}
+        source={require("~/assets/bg.png")}
         resizeMode="cover"
         style={styles.container}
       >

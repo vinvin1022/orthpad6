@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import type { FC } from "react";
 import { Text, Animated, StyleSheet } from "react-native";
-import { pxToDp } from "../../utils";
+import { pxToDp } from "~/utils";
 
 type TProps = {
   shouldBlink: boolean;

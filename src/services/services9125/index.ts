@@ -1,5 +1,5 @@
 import { ToastAndroid } from 'react-native';
-import http from '../../utils/http';
+import http from '~/utils/http';
 import {
   serverHost as host,
   picSize,
